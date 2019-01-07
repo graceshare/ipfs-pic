@@ -116,8 +116,7 @@
 
         function getimg(picurl) {
             var thediv = $('<div class="col-md-2"></div>');
-            var thelink = $('<a target="_blank"></a>');
-            thelink.href = picurl
+            var thelink = $('<a target="_blank" href="'+picurl+'"></a>');
             
             var img = new Image();
             img.src = picurl;
